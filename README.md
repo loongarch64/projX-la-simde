@@ -1,8 +1,8 @@
-# projX-la-simde
+# projX-la-SIMDe
 
 ## 项目名称
 
-simde项目的LoongArch向量指令支持
+SIMDe项目的LoongArch向量指令支持
 
 ## 支持单位
 
@@ -10,10 +10,10 @@ simde项目的LoongArch向量指令支持
 
 ## 项目描述
 
-基于开源simde项目，实现x86向量指令SSE与AVX和ARM向量指令NEON到LoongArch向量指令的转换。具体工作内容包括：
+基于开源SIMDe项目，实现x86向量指令SSE与AVX和ARM向量指令NEON到LoongArch向量指令的转换。具体工作内容包括：
 
-1） 阅读分析simde源代码，理解基本思路。
-2） 在simde项目中实现SSE/AVX/NEON向量指令到LoongArch向量指令的转换，进行测试和调优，生成相应文档。
+1） 阅读分析SIMDe源代码，理解基本思路。
+2） 在SIMDe项目中实现SSE/AVX/NEON向量指令到LoongArch向量指令的转换，进行测试和调优，生成相应文档。
 3） 有余力可尝试继续实现MIPS中MSA向量指令到LoongArch向量指令的转换。
 
 ## 所属赛道
@@ -46,7 +46,7 @@ GPL V3.0.
 
 ## 参考资源
 
-* [simde源码](https://github.com/simd-everywhere/simde)
+* [SIMDe源码](https://github.com/simd-everywhere/simde)
 * [LoongArch docs](https://github.com/loongson/LoongArch-Documentation)。LoongArch相关文档，包括架构手册，ABI, 3A5000 CPU和7A1000桥片手册等。
 
 ## 备注
